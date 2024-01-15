@@ -72,6 +72,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
                     console.log("Error fetching trailer:", error);
                     
                 });
+
         }
     };
     
@@ -79,6 +80,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
 
   return ( 
     <div className="row">
+        
         <h1>{title}</h1>
         <div className="row__posters">
             {
